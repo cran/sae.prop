@@ -32,7 +32,7 @@
 #'      }
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' ## Load dataset
 #' data(datasaem)
 #'

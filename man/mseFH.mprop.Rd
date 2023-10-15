@@ -58,7 +58,7 @@ The function returns a list with the following objects:
 This function gives the MSE of transformed EBLUP and Empirical Best Predictor (EBP) based on a multivariate Fay-Herriot model with modified parametric bootstrap approach proposed by Gonzalez-Manteiga.
 }
 \examples{
-\donttest{
+\dontrun{
 ## Load dataset
 data(datasaem)
 

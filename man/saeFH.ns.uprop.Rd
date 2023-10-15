@@ -53,6 +53,7 @@ The function returns a list with the following objects:
 This function gives the transformed EBLUP based on a univariate Fay-Herriot model. Random effects for sampled domains are from the fitted model and random effects for non-sampled domains are from cluster information.
 }
 \examples{
+\dontrun{
 ## Load dataset
 data(datasaeu.ns)
 
@@ -76,5 +77,6 @@ model.ns3 <- saeFH.ns.uprop(Fo, vardir, cluster = datasaeu.ns$cluster)
 
 ## See the estimators
 model.ns$est
+}
 
 }

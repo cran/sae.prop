@@ -43,6 +43,7 @@ The function returns a list with the following objects:
 This function gives the transformed EBLUP and Empirical Best Predictor (EBP) based on a univariate Fay-Herriot model.
 }
 \examples{
+\dontrun{
 ## Load dataset
 data(datasaeu)
 
@@ -58,5 +59,6 @@ model <- saeFH.uprop(Fo, vardir)
 
 ## See the estimators
 model$est
+}
 
 }

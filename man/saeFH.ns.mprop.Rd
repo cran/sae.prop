@@ -52,6 +52,7 @@ The function returns a list with the following objects:
 This function gives the transformed EBLUP based on a multivariate Fay-Herriot model. Random effects for sampled domains are from the fitted model and random effects for non-sampled domains are from cluster information. This function is used for multinomial compositional data. If data has \eqn{P} as proportion and total of \eqn{q} categories \eqn{(P_{1} + P_{2} + \dots + P_{q} = 1)}, then function should be used to estimate \eqn{{P_{1}, P_{2}, \dots, P_{q-1}}}.
 }
 \examples{
+\dontrun{
 ## Load dataset
 data(datasaem.ns)
 
@@ -79,5 +80,6 @@ model.ns3 <- saeFH.ns.mprop(Fo, vardir, cluster = datasaem.ns[, c("c1", "c2", "c
 
 ## See the estimators
 model.ns$est
+}
 
 }

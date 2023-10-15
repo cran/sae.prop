@@ -26,6 +26,7 @@
 #'      }
 #'
 #' @examples
+#' \dontrun{
 #' ## Load dataset
 #' data(datasaeu)
 #'
@@ -41,6 +42,7 @@
 #'
 #' ## See the estimators
 #' model$est
+#' }
 #'
 #' @export saeFH.uprop
 

@@ -26,6 +26,7 @@
 #'      }
 #'
 #' @examples
+#' \dontrun{
 #' ## Load dataset
 #' data(datasaem)
 #'
@@ -45,6 +46,7 @@
 #'
 #' ## See the estimators
 #' model$est
+#' }
 #'
 #' @export saeFH.mprop
 

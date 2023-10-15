@@ -43,6 +43,7 @@ The function returns a list with the following objects:
 This function gives the transformed EBLUP and Empirical Best Predictor (EBP) based on a multivariate Fay-Herriot model. This function is used for multinomial compositional data. If data has \eqn{P} as proportion and total of \eqn{q} categories \eqn{(P_{1} + P_{2} + \dots + P_{q} = 1)}, then function should be used to estimate \eqn{{P_{1}, P_{2}, \dots, P_{q-1}}}.
 }
 \examples{
+\dontrun{
 ## Load dataset
 data(datasaem)
 
@@ -61,5 +62,6 @@ model <- saeFH.mprop(Fo, vardir)
 
 ## See the estimators
 model$est
+}
 
 }

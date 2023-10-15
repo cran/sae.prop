@@ -29,6 +29,7 @@
 #'      }
 #'
 #' @examples
+#' \dontrun{
 #' ## Load dataset
 #' data(datasaeu.ns)
 #'
@@ -52,6 +53,7 @@
 #'
 #' ## See the estimators
 #' model.ns$est
+#' }
 #'
 #' @export saeFH.ns.uprop
 

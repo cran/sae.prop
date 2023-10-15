@@ -35,7 +35,7 @@
 #'      }
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' ## Load dataset
 #' data(datasaeu.ns)
 #'

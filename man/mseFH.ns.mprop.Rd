@@ -60,7 +60,7 @@ The function returns a list with the following objects:
 This function gives the MSE of transformed EBLUP based on a multivariate Fay-Herriot model. For sampled domains, MSE is estimated using modified parametric bootstrap approach proposed by Gonzalez-Manteiga. For non-sampled domains, MSE is estimated using modified approach by using average sampling variance of sampled domain in each cluster.
 }
 \examples{
-\donttest{
+\dontrun{
 ## Load dataset
 data(datasaem.ns)
 
